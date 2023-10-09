@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+
+}
+
+
+
+
+
+.car-photo {
+    width: 50%;
+}
+
+
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    border: 8px solid lightcyan;
+}
