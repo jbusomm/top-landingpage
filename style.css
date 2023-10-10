@@ -39,8 +39,8 @@ header .header-items {
     flex-basis: 100%;
     justify-content: space-between;
     align-items: center;
-    margin: 0 300px;
-    margin-bottom: 90px;
+    margin: 0 500px;
+    margin-bottom: 100px;
 }
 
 .hero {
@@ -51,7 +51,7 @@ header .header-items {
 .hero .hero-items {
     display: flex;
     justify-content: space-between;
-    margin: 0 300px;
+    margin: 0 500px;
     margin-bottom: 90px;
 }
 
@@ -115,6 +115,7 @@ header .header-items {
 .info-content {
     display: flex;
     gap: 48px;
+    margin-bottom: 128px;
 }
 
 .info-title {
@@ -150,4 +151,31 @@ header .header-items {
     border-radius: 7px;
     height: auto;
     position: absolute;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-items {
+    padding: 150px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 ;
+}
+
+.author {
+    font-size: 20px;
+    margin: 0;
+    align-self: end;
 }
