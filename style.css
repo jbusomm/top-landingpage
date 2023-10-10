@@ -105,11 +105,39 @@ header .header-items {
     align-items: center;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.box1,
-.box2,
-.box3,
-.box4,
-.box5 {
-    border: 8px solid lightcyan;
+.info-content {
+    display: flex;
+    gap: 24px;
+}
+
+.info-title {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.box {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-image {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3B82F6;
+    border-radius: 12px;
+}
+
+.box-text {
+    text-align: center;
+    color: #303438  ;
 }
