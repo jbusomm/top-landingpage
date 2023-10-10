@@ -179,3 +179,54 @@ header .header-items {
     margin: 0;
     align-self: end;
 }
+
+.sign-up-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-items {
+    display: flex;
+    align-items: center;
+    background-color: #3B82F6;
+    padding: 40px 0px 40px 90px;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.sign-up-text h5 {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    flex: 8;
+}
+
+.sign-up-text p {
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+
+.sign-up-items button {
+    background-color: #3B82F6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #f9faf8;
+    border-style: line;
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+.sign-up-button {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    padding-right: 80px;
+}
