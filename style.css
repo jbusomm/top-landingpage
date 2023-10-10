@@ -45,7 +45,6 @@ header .header-items {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding: 20px;
 }
 
 .hero .hero-items {
@@ -61,6 +60,9 @@ header .header-items {
 
 .hero button {
     background-color: #3B82F6;
+    font-size: 14px;
+    color: #f9faf8;
+    border-style: none;
 }
 
 .hero h1 {
